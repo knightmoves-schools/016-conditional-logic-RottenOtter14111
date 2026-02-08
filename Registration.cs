@@ -4,12 +4,11 @@ namespace knightmoves;
 public class Registration
 {
     // Add your code here
-    public bool OldEnough = false;
-    public string ValidateAge()
+    public string ValidateAge(bool oldEnough)
     {
-        if (OldEnough)
+        if (oldEnough)
         {
-            return "Old enough";
+            return "old enough";
         }
         return "";
     }
